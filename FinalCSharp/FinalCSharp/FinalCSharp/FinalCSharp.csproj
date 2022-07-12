@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4CC0CB66-3DE3-43A3-896C-DD4F31BB00B2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FinalCSharp</RootNamespace>
+    <AssemblyName>FinalCSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxInterop.WMPLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\AxInterop.WMPLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChessBoard.cs" />
+    <Compile Include="Cons.cs" />
+    <Compile Include="DFSoundPlayer.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameTime.cs" />
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pikachu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pikachu.Designer.cs">
+      <DependentUpon>Pikachu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pikachu.resx">
+      <DependentUpon>Pikachu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eat.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hit.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lose.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\theme1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\winner.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wrong.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bbbbbbb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sound.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sound_off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\continue_new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pause_new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hint_final.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\choimoi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resume.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guide.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\de.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\binhthuong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kho.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pokemon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\traicay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\food.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Man.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChuDe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackBt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Back3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackTT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Name.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back_v1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diemcao_final.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_final.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open_final.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\share.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doimau2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thanhtich.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xacnhan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Win.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Win-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Win_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Win01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\temp4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

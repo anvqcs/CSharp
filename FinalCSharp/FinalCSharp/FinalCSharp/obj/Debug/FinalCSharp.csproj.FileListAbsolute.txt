@@ -1,0 +1,32 @@
+E:\HocPhan\HocKy7\Csharp\CuoiKy\FinalCSharp\FinalCSharp\bin\Debug\FinalCSharp.exe.config
+E:\HocPhan\HocKy7\Csharp\CuoiKy\FinalCSharp\FinalCSharp\bin\Debug\FinalCSharp.exe
+E:\HocPhan\HocKy7\Csharp\CuoiKy\FinalCSharp\FinalCSharp\bin\Debug\FinalCSharp.pdb
+E:\HocPhan\HocKy7\Csharp\CuoiKy\FinalCSharp\FinalCSharp\obj\Debug\FinalCSharp.csproj.AssemblyReference.cache
+E:\HocPhan\HocKy7\Csharp\CuoiKy\FinalCSharp\FinalCSharp\obj\Debug\FinalCSharp.Properties.Resources.resources
+E:\HocPhan\HocKy7\Csharp\CuoiKy\FinalCSharp\FinalCSharp\obj\Debug\FinalCSharp.csproj.GenerateResource.cache
+E:\HocPhan\HocKy7\Csharp\CuoiKy\FinalCSharp\FinalCSharp\obj\Debug\FinalCSharp.csproj.CoreCompileInputs.cache
+E:\HocPhan\HocKy7\Csharp\CuoiKy\FinalCSharp\FinalCSharp\obj\Debug\FinalCSharp.exe
+E:\HocPhan\HocKy7\Csharp\CuoiKy\FinalCSharp\FinalCSharp\obj\Debug\FinalCSharp.pdb
+E:\HocPhan\HocKy7\Csharp\CuoiKy\FinalCSharp\FinalCSharp\obj\Debug\FinalCSharp.Menu.resources
+E:\HocPhan\HocKy7\Csharp\CuoiKy\FinalCSharp\FinalCSharp\obj\Debug\FinalCSharp.Pikachu.resources
+E:\HocPhan\HocKy7\Csharp\CuoiKy\FinalCSharp\FinalCSharp\obj\Debug\FinalCSharp.csproj.CopyComplete
+E:\HocPhan\HocKy7\Csharp\CuoiKy\FinalCSharp\FinalCSharp\bin\Debug\Interop.WMPLib.dll
+E:\HocPhan\HocKy7\Csharp\CuoiKy\FinalCSharp\FinalCSharp\obj\Debug\Interop.WMPLib.dll
+E:\HocPhan\HocKy7\Csharp\CuoiKy\FinalCSharp\FinalCSharp\obj\Debug\AxInterop.WMPLib.dll
+E:\HocPhan\HocKy7\Csharp\CuoiKy\FinalCSharp\FinalCSharp\obj\Debug\FinalCSharp.csproj.ResolveComReference.cache
+D:\UIT\Hoc Phan\Hoc Ky 7\CSharp\FinalCSharp\FinalCSharp\FinalCSharp\bin\Debug\FinalCSharp.exe.config
+D:\UIT\Hoc Phan\Hoc Ky 7\CSharp\FinalCSharp\FinalCSharp\FinalCSharp\bin\Debug\FinalCSharp.exe
+D:\UIT\Hoc Phan\Hoc Ky 7\CSharp\FinalCSharp\FinalCSharp\FinalCSharp\bin\Debug\FinalCSharp.pdb
+D:\UIT\Hoc Phan\Hoc Ky 7\CSharp\FinalCSharp\FinalCSharp\FinalCSharp\bin\Debug\Interop.WMPLib.dll
+D:\UIT\Hoc Phan\Hoc Ky 7\CSharp\FinalCSharp\FinalCSharp\FinalCSharp\obj\Debug\FinalCSharp.csproj.AssemblyReference.cache
+D:\UIT\Hoc Phan\Hoc Ky 7\CSharp\FinalCSharp\FinalCSharp\FinalCSharp\obj\Debug\Interop.WMPLib.dll
+D:\UIT\Hoc Phan\Hoc Ky 7\CSharp\FinalCSharp\FinalCSharp\FinalCSharp\obj\Debug\AxInterop.WMPLib.dll
+D:\UIT\Hoc Phan\Hoc Ky 7\CSharp\FinalCSharp\FinalCSharp\FinalCSharp\obj\Debug\FinalCSharp.csproj.ResolveComReference.cache
+D:\UIT\Hoc Phan\Hoc Ky 7\CSharp\FinalCSharp\FinalCSharp\FinalCSharp\obj\Debug\FinalCSharp.Menu.resources
+D:\UIT\Hoc Phan\Hoc Ky 7\CSharp\FinalCSharp\FinalCSharp\FinalCSharp\obj\Debug\FinalCSharp.Pikachu.resources
+D:\UIT\Hoc Phan\Hoc Ky 7\CSharp\FinalCSharp\FinalCSharp\FinalCSharp\obj\Debug\FinalCSharp.Properties.Resources.resources
+D:\UIT\Hoc Phan\Hoc Ky 7\CSharp\FinalCSharp\FinalCSharp\FinalCSharp\obj\Debug\FinalCSharp.csproj.GenerateResource.cache
+D:\UIT\Hoc Phan\Hoc Ky 7\CSharp\FinalCSharp\FinalCSharp\FinalCSharp\obj\Debug\FinalCSharp.csproj.CoreCompileInputs.cache
+D:\UIT\Hoc Phan\Hoc Ky 7\CSharp\FinalCSharp\FinalCSharp\FinalCSharp\obj\Debug\FinalCSharp.csproj.CopyComplete
+D:\UIT\Hoc Phan\Hoc Ky 7\CSharp\FinalCSharp\FinalCSharp\FinalCSharp\obj\Debug\FinalCSharp.exe
+D:\UIT\Hoc Phan\Hoc Ky 7\CSharp\FinalCSharp\FinalCSharp\FinalCSharp\obj\Debug\FinalCSharp.pdb

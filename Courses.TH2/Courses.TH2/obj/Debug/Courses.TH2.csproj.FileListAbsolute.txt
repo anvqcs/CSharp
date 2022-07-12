@@ -1,0 +1,29 @@
+E:\HocPhan\HocKy7\CSharp\ThucHanh\Courses.TH2\Courses.TH2\Courses.TH2\bin\Debug\Courses.TH2.exe.config
+E:\HocPhan\HocKy7\CSharp\ThucHanh\Courses.TH2\Courses.TH2\Courses.TH2\bin\Debug\Courses.TH2.exe
+E:\HocPhan\HocKy7\CSharp\ThucHanh\Courses.TH2\Courses.TH2\Courses.TH2\bin\Debug\Courses.TH2.pdb
+E:\HocPhan\HocKy7\CSharp\ThucHanh\Courses.TH2\Courses.TH2\Courses.TH2\bin\Debug\Guna.UI2.dll
+E:\HocPhan\HocKy7\CSharp\ThucHanh\Courses.TH2\Courses.TH2\Courses.TH2\obj\Debug\Courses.TH2.csproj.AssemblyReference.cache
+E:\HocPhan\HocKy7\CSharp\ThucHanh\Courses.TH2\Courses.TH2\Courses.TH2\obj\Debug\Courses.TH2.Form1.resources
+E:\HocPhan\HocKy7\CSharp\ThucHanh\Courses.TH2\Courses.TH2\Courses.TH2\obj\Debug\Courses.TH2.Properties.Resources.resources
+E:\HocPhan\HocKy7\CSharp\ThucHanh\Courses.TH2\Courses.TH2\Courses.TH2\obj\Debug\Courses.TH2.csproj.GenerateResource.cache
+E:\HocPhan\HocKy7\CSharp\ThucHanh\Courses.TH2\Courses.TH2\Courses.TH2\obj\Debug\Courses.TH2.csproj.CoreCompileInputs.cache
+E:\HocPhan\HocKy7\CSharp\ThucHanh\Courses.TH2\Courses.TH2\Courses.TH2\obj\Debug\Courses.TH2.csproj.CopyComplete
+E:\HocPhan\HocKy7\CSharp\ThucHanh\Courses.TH2\Courses.TH2\Courses.TH2\obj\Debug\Courses.TH2.exe
+E:\HocPhan\HocKy7\CSharp\ThucHanh\Courses.TH2\Courses.TH2\Courses.TH2\obj\Debug\Courses.TH2.pdb
+E:\HocPhan\HocKy7\CSharp\ThucHanh\Courses.TH2\Courses.TH2\Courses.TH2\obj\Debug\Courses.TH2.Cart.resources
+E:\HocPhan\HocKy7\CSharp\ThucHanh\Courses.TH2\Courses.TH2\Courses.TH2\obj\Debug\Courses.TH2.History.resources
+E:\HocPhan\HocKy7\CSharp\ThucHanh\Courses.TH2\Courses.TH2\Courses.TH2\obj\Debug\Courses.TH2.Ctrl_Cart.resources
+D:\Learn\UIT\Hoc Phan\Hoc Ky 7\CSharp\Courses.TH2\Courses.TH2\bin\Debug\Courses.TH2.exe.config
+D:\Learn\UIT\Hoc Phan\Hoc Ky 7\CSharp\Courses.TH2\Courses.TH2\bin\Debug\Courses.TH2.exe
+D:\Learn\UIT\Hoc Phan\Hoc Ky 7\CSharp\Courses.TH2\Courses.TH2\bin\Debug\Courses.TH2.pdb
+D:\Learn\UIT\Hoc Phan\Hoc Ky 7\CSharp\Courses.TH2\Courses.TH2\bin\Debug\Guna.UI2.dll
+D:\Learn\UIT\Hoc Phan\Hoc Ky 7\CSharp\Courses.TH2\Courses.TH2\obj\Debug\Courses.TH2.Cart.resources
+D:\Learn\UIT\Hoc Phan\Hoc Ky 7\CSharp\Courses.TH2\Courses.TH2\obj\Debug\Courses.TH2.Ctrl_Cart.resources
+D:\Learn\UIT\Hoc Phan\Hoc Ky 7\CSharp\Courses.TH2\Courses.TH2\obj\Debug\Courses.TH2.Form1.resources
+D:\Learn\UIT\Hoc Phan\Hoc Ky 7\CSharp\Courses.TH2\Courses.TH2\obj\Debug\Courses.TH2.History.resources
+D:\Learn\UIT\Hoc Phan\Hoc Ky 7\CSharp\Courses.TH2\Courses.TH2\obj\Debug\Courses.TH2.Properties.Resources.resources
+D:\Learn\UIT\Hoc Phan\Hoc Ky 7\CSharp\Courses.TH2\Courses.TH2\obj\Debug\Courses.TH2.csproj.GenerateResource.cache
+D:\Learn\UIT\Hoc Phan\Hoc Ky 7\CSharp\Courses.TH2\Courses.TH2\obj\Debug\Courses.TH2.csproj.CoreCompileInputs.cache
+D:\Learn\UIT\Hoc Phan\Hoc Ky 7\CSharp\Courses.TH2\Courses.TH2\obj\Debug\Courses.TH2.csproj.CopyComplete
+D:\Learn\UIT\Hoc Phan\Hoc Ky 7\CSharp\Courses.TH2\Courses.TH2\obj\Debug\Courses.TH2.exe
+D:\Learn\UIT\Hoc Phan\Hoc Ky 7\CSharp\Courses.TH2\Courses.TH2\obj\Debug\Courses.TH2.pdb

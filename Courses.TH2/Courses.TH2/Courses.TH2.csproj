@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C7BC9903-F20F-4DE0-9A5E-B0490A8B1F68}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Courses.TH2</RootNamespace>
+    <AssemblyName>Courses.TH2</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.2.4, Culture=neutral, PublicKeyToken=e4b9cdd7b4cde4b4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.2.4\lib\net40\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cart.Designer.cs">
+      <DependentUpon>Cart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ctrl_Cart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ctrl_Cart.Designer.cs">
+      <DependentUpon>Ctrl_Cart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="History.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="History.Designer.cs">
+      <DependentUpon>History.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="propfull.cs" />
+    <EmbeddedResource Include="Cart.resx">
+      <DependentUpon>Cart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ctrl_Cart.resx">
+      <DependentUpon>Ctrl_Cart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="History.resx">
+      <DependentUpon>History.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\options-lines.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dien-thoai.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laptop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tablet0409.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smart-watch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PhuKien.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Allinone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\samsung-galaxy-z-fold-3-green.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iphone-13-pro-max-graphite.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xiaomi-11t-grey-1-600x600.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\samsung-galaxy-a03s-blue-600x600.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oppo-reno6-z-5g-aurora-1-600x600.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\samsung-galaxy-s20-fan-edition-090320-040338-600x600.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\macbook-pro-m1-2020-gray-600x600.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\samsung-galaxy-tab-s7-fe-green-600x600.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\msi-gamin-gf65-thin-10ue-i5-10500h-16gb-512gb-6gb-600x600.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dell-vostro-3400-i5-1135g7-8gb-256gb-office-600x600.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sac-du-phong-polymer-15000mah-type-c-xmobile-p72d-avatar-1-600x600.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping-cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\history.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smartphone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laptop1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\watch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\personal-computer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\writing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gift-box-with-a-bow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monitor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer-mouse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13-Chuộtmáytính-120x120.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Image\1.jpg" />
+    <Content Include="Image\10.jpg" />
+    <Content Include="Image\11.jpg" />
+    <Content Include="Image\12.jpg" />
+    <Content Include="Image\13.jpg" />
+    <Content Include="Image\14.jpg" />
+    <Content Include="Image\15.jpg" />
+    <Content Include="Image\16.jpg" />
+    <Content Include="Image\17.jpg" />
+    <Content Include="Image\18.jpg" />
+    <Content Include="Image\19.jpg" />
+    <Content Include="Image\2.jpg" />
+    <Content Include="Image\20.jpg" />
+    <Content Include="Image\21.jpg" />
+    <Content Include="Image\22.jpg" />
+    <Content Include="Image\23.jpg" />
+    <Content Include="Image\24.jpg" />
+    <Content Include="Image\25.jpg" />
+    <Content Include="Image\26.jpg" />
+    <Content Include="Image\27.jpg" />
+    <Content Include="Image\28.jpg" />
+    <Content Include="Image\29.jpg" />
+    <Content Include="Image\3.jpg" />
+    <Content Include="Image\30.jpg" />
+    <Content Include="Image\31.jpg" />
+    <Content Include="Image\32.jpg" />
+    <Content Include="Image\33.jpg" />
+    <Content Include="Image\34.jpg" />
+    <Content Include="Image\35.jpg" />
+    <Content Include="Image\36.jpg" />
+    <Content Include="Image\37.jpg" />
+    <Content Include="Image\38.jpg" />
+    <Content Include="Image\39.jpg" />
+    <Content Include="Image\4.jpg" />
+    <Content Include="Image\40.jpg" />
+    <Content Include="Image\41.jpg" />
+    <Content Include="Image\42.jpg" />
+    <Content Include="Image\43.jpg" />
+    <Content Include="Image\44.jpg" />
+    <Content Include="Image\45.jpg" />
+    <Content Include="Image\46.jpg" />
+    <Content Include="Image\47.jpg" />
+    <Content Include="Image\48.jpg" />
+    <Content Include="Image\49.jpg" />
+    <Content Include="Image\5.jpg" />
+    <Content Include="Image\50.jpg" />
+    <Content Include="Image\51.jpg" />
+    <Content Include="Image\52.jpg" />
+    <Content Include="Image\53.jpg" />
+    <Content Include="Image\54.jpg" />
+    <Content Include="Image\55.jpg" />
+    <Content Include="Image\56.jpg" />
+    <Content Include="Image\57.jpg" />
+    <Content Include="Image\58.jpg" />
+    <Content Include="Image\59.jpg" />
+    <Content Include="Image\6.jpg" />
+    <Content Include="Image\60.jpg" />
+    <Content Include="Image\61.jpg" />
+    <Content Include="Image\62.jpg" />
+    <Content Include="Image\63.jpg" />
+    <Content Include="Image\64.jpg" />
+    <Content Include="Image\65.jpg" />
+    <Content Include="Image\66.jpg" />
+    <Content Include="Image\67.jpg" />
+    <Content Include="Image\68.jpg" />
+    <Content Include="Image\69.jpg" />
+    <Content Include="Image\7.jpg" />
+    <Content Include="Image\70.jpg" />
+    <Content Include="Image\71.jpg" />
+    <Content Include="Image\72.jpg" />
+    <Content Include="Image\73.jpg" />
+    <Content Include="Image\74.jpg" />
+    <Content Include="Image\75.jpg" />
+    <Content Include="Image\76.jpg" />
+    <Content Include="Image\77.jpg" />
+    <Content Include="Image\78.jpg" />
+    <Content Include="Image\79.jpg" />
+    <Content Include="Image\8.jpg" />
+    <Content Include="Image\80.jpg" />
+    <Content Include="Image\81.jpg" />
+    <Content Include="Image\82.jpg" />
+    <Content Include="Image\83.jpg" />
+    <Content Include="Image\84.jpg" />
+    <Content Include="Image\85.jpg" />
+    <Content Include="Image\86.jpg" />
+    <Content Include="Image\87.jpg" />
+    <Content Include="Image\88.jpg" />
+    <Content Include="Image\89.jpg" />
+    <Content Include="Image\9.jpg" />
+    <Content Include="Image\90.jpg" />
+    <Content Include="Image\91.jpg" />
+    <None Include="Resources\73.jpg" />
+    <None Include="Resources\filter.png" />
+    <None Include="Resources\minus-sign.png" />
+    <None Include="Resources\plus.png" />
+    <None Include="Resources\previous.png" />
+    <None Include="Resources\back.png" />
+    <None Include="Resources\magnifier.png" />
+    <None Include="Resources\bin.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
